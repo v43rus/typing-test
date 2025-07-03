@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Test</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <video autoplay muted loop id="background-video">
+    <source src="bg.mp4" type="video/mp4">
+  </video>
+
+  <!-- Video toggle button for accessibility -->
+  <button type="button" id="video-toggle" title="Toggle background video" alt="toggle background video">
+    <span id="video-icon"><i class="fa-solid fa-pause"></i></span>
+  </button>
+
+  <div id="app">
+    <h1>Typing Test</h1>
+    <div id="text-container">This is our text</div>
+    <div id="timer">Time left: 60s</div>
+    <div id="final-score"></div>
+    <button type="button" id="try-again">Try Again</button>
+  </div>
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,5 +1,7 @@
 # Typing Test
 
+[Live Preview](https://v43rus.github.io/typing-test/)
+
 This project is a cyberpunk-themed typing speed test application. Test your typing skills with a 60-second timer, real-time accuracy tracking, and a futuristic visual experience complete with animated background video and cyberpunk effects. Built with vanilla JavaScript, HTML, and CSS.
 
 ## Features
